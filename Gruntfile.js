@@ -164,7 +164,7 @@ module.exports = function (grunt) {
       options: {
         dest: '<%= yeoman.docs %>',
         html5Mode: false,
-        title: "hForms Sample Documentation"
+        title: "Sample Documentation"
       },
       all: ['<%= yeoman.app %>/**/*.js', '<%= yeoman.app %>/index.ngdoc']
     },
@@ -409,7 +409,7 @@ module.exports = function (grunt) {
     ngtemplates: {
       dist: {
         options: {
-          module: 'hformsApp',
+          module: 'app',
           htmlmin: '<%= htmlmin.dist.options %>',
           usemin: 'scripts/scripts.js'
         },
